@@ -15,7 +15,7 @@ var brickCount = 0;
 
 // Ball
 var ballX = 75;
-var ballSpeedX = 10;
+var ballSpeedX = 8;
 var ballY = 75;
 var ballSpeedY = 8;
 
