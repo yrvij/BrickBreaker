@@ -229,7 +229,7 @@ function drawbricks(){
 }// drawbricks
 
 function colorCircle(){
-  canvasContext.fillStyle = 'black';
+  canvasContext.fillStyle = 'red';
   canvasContext.beginPath();
   canvasContext.arc(ballX, ballY, 10, 0, Math.PI*2, true);
   canvasContext.fill();
