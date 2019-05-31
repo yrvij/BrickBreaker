@@ -222,7 +222,7 @@ function drawbricks(){
       var arrayIndex = rowColToArrayIndex(eachCol, eachRow);
       if(brickGrid[arrayIndex]){
         colorRect(BRICK_W*eachCol , BRICK_H*eachRow,
-          BRICK_W-BRICK_GAP, BRICK_H-BRICK_GAP, 'green');
+          BRICK_W-BRICK_GAP, BRICK_H-BRICK_GAP, '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6));
       } //   if brick
     }// each brick
   }// each brickrow
